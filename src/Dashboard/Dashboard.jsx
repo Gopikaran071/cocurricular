@@ -5,7 +5,7 @@ function Dashboard() {
   return (
     <div className='m-7'>
         <Link to='Login'><div className='py-1 px-2 border border-green-600 rounded-xl bg-green-500 float-right '>
-            login
+            lon
         </div></Link>
         <Link to='Signup'><div className='py-1 px-2 border border-red-600 rounded-xl bg-red-500 float-right '>
             Signup
