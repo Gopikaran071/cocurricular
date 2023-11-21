@@ -89,7 +89,7 @@ const Signup = () => {
                   
                 </div>
                 <div><Link to="/Home">
-                  <button type='submit' className=' ml-[380px] border rounded-lg duration-200 hover:text-white border-green-500 px-6 py-1 mt-11 focus:text-white hover:bg-green-500 focus:bg-red-500' > submit</button></Link>
+                  <button type='submit' className=' ml-[380px] border rounded-lg duration-200 hover:text-white border-violet-950-500 px-6 py-1 mt-11 focus:text-white hover:bg-violet-950 text-white font-semibold focus:bg-red-500' > submit</button></Link>
                 </div>
               </div>
             </div>
