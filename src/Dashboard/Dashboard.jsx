@@ -40,7 +40,7 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className='mb-9 m-5 fixed'>
+    <div className='mb-9 m-5 scrollbar-hide'>
       <nav className='border flex rounded-xl shadow-black/50 shadow-lg p-1'>
         <a className='flex focus:shadow-sm ml-3' href='https://www.ritrjpm.ac.in/'>
           <img src="./ramcologo.jpg" alt="" className='h-9' />
