@@ -46,15 +46,15 @@ function Dashboard() {
           <img src="./ramcologo.jpg" alt="" className='h-9' />
           <span className='font-semibold mt-1 ml-2 text-xl'>RIT</span>
         </a>
-        <h1 className='font-semibold mt-1 ml-[550px] text-xl'>Co-Curricular</h1>
-        <Link to='/Login'><button className='mt-1 p-1 rounded-lg bg-slate-400 font-bold px-2 ml-[600px]'>login</button></Link>
-        <Link to='/Signup'><button className='mt-1 p-1 rounded-lg text-white bg-violet-950 ml-[10px]'>Sign Up</button></Link>
+        <h1 className='font-semibold mt-1 lg:ml-[450px] text-xl '>Co-Curricular</h1>
+        <Link to='/Login'><button className='mt-1 p-1 rounded-lg bg-slate-400 font-bold px-2 ml-[500px]  '>login</button></Link>
+        <Link to='/Signup'><button className='mt-1 p-1 rounded-lg text-white bg-violet-950 ml-[10px]  '>Sign Up</button></Link>
       </nav>
 
       <div className='flex mt-7'>
         <div className='w-1/2 '>
           <span className='flex justify-center font-serif font-extralight'>Upcoming Events</span>
-          <div className='border shadow-lg shadow-black/25 rounded-lg p-5 h-[450px] m-4 overflow-auto scrollbar-hide' ref={scrollRef1}>
+          <div className='border shadow-lg shadow-black/25 rounded-lg p-5   h-[330px] m-4 overflow-auto scrollbar-hide' ref={scrollRef1}>
            
             <div className='p-5 border border-purple-400 h-[250px]'>
               <span>
@@ -88,7 +88,7 @@ function Dashboard() {
 
         <div className='w-1/2'>
           <span className='flex justify-center font-serif font-extralight'>Events Reports</span>
-          <div className='border shadow-inner shadow-black/25 rounded-lg p-5 h-[550px] m-3 overflow-auto scrollbar-hide' ref={scrollRef2}>
+          <div className='border shadow-inner shadow-black/25 rounded-lg p-5 h-[430px] m-3 overflow-auto scrollbar-hide' ref={scrollRef2}>
            
             <div className='p-5 border border-purple-400 h-[250px]'>
               <span>
