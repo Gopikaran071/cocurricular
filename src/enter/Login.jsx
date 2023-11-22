@@ -11,7 +11,7 @@ const Login = () => {
               <div className='h-[500px] w-[900px] backdrop-blur-sm shadow-2xl border rounded-2xl flex'>
                 <div className='w-1/2 border rounded-lg'>
                   <div className='text-end mt-[430px] mr-9'>
-                    <span >Create a accounts <Link to='Signup'> sigup</Link></span>
+                  <Link to='/Signup'> <span >Create a account sigup</span></Link>
                   </div>
                 </div>
 
