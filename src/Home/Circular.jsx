@@ -12,7 +12,7 @@ function Circular() {
                             <span className='ml-[100px] font-bold font-serif'>RAMCO INSTITUTE OF TECHNOLOGY </span>
                             <span className='ml-[180px] font-bold font-serif'>RAJAPALAYAM</span><br />
                             <span className='font-serif font-bold  ml-[50px] text-xs'>{dept}</span><br />
-                            <span className='ml-[180px]  font-serif  font-bold'>RIT–TECHNEBIZ</span><br /><br />
+                            <span className='ml-[180px]  font-serif  font-bold'>RIT–TECHNEBIZ</span><br />
                             <span className='ml-[200px]  font-serif  font-bold'><u>CIRCULAR</u></span>
                         </div>
                     </div>

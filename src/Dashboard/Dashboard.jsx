@@ -46,8 +46,8 @@ function Dashboard() {
           <img src="/ramcologo.jpg" alt="" className='h-9' />
           <span className='font-semibold mt-1 ml-2 text-xl'>RIT</span>
         </a>
-        <h1 className='font-semibold mt-1 lg:ml-[450px] text-xl '>Co-Curricular</h1>
-        <Link to='/Login'><button className='mt-1 p-1 rounded-lg bg-slate-400 font-bold px-2 ml-[500px]  '>login</button></Link>
+        <h1 className='font-semibold mt-1 lg:ml-[590px] text-xl   md:ml-[550px]'>Co-Curricular</h1>
+       <button className='mt-1 p-1 rounded-lg bg-slate-400 font-bold px-2 border lg:ml-[550px] md:ml-[300px] '> <Link to='/Login'>login</Link></button>
         <Link to='/Signup'><button className='mt-1 p-1 rounded-lg text-white bg-violet-950 ml-[10px]  '>Sign Up</button></Link>
       </nav>
 
