@@ -31,6 +31,7 @@ function Circular() {
 
                             <div>
                                 <label htmlFor="" className='font-serif  font-semibold'> Date</label>
+                                inpu
                             </div>
                             
                             </div>
