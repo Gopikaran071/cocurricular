@@ -3,11 +3,11 @@ import React from 'react'
 function Circular() {
     const dept = "COMPUTER SCIENCE AND BUSINESS SYSTEMS"
     const ass = 'RIT–TECHNEBIZ'
-    
+
     return (
-        <div className='scrollbar-hide '>
-            <div className='border  m-6  border-red-800 p-3  mx-[300px] '>
-                <div className='border border-red-800 p-5 px-9'>
+        <div className='scrollbar-hide  p-6 '>
+            <div className='border  shadow-2xl p-3  mx-[300px] '>
+                <div className='border border-black p-5 px-9'>
                     <div className='flex'>
                         <img src="/ramcologo.jpg" alt=" ramcologo" className='h-[95px]' />
                         <div className=''>
@@ -21,9 +21,8 @@ function Circular() {
                     {/* below header */}
                     <div className='flex'>
                         <div className='border border-red-800 p-2 w-1/2'>
-
                         </div>
-                        <div className='border border-red-800 pl-5 w-1/2'>
+                        <div className=' pl-5 w-1/2'>
                             <form action="">
                                 <div className='mt-7'>
                                     <div className='flex'>
@@ -69,19 +68,37 @@ function Circular() {
                                             <input type="text" name="" id="" className='h-5 w-[51px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' />
                                             <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' />
                                             <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold border-black' />
-                                        
-                                          <div className='flex '>
-                                          <div className='border h-5 w-[51px]  border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
-                                            <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
-                                            <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
-                                            <div className='border h-5 w-[51px] border-r-0   border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
-                                          </div>
+                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold  border-black' />
+                                            <div className='flex  '>
+                                                <div className='border h-5 w-[51px]  border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
+                                                <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
+                                                <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
+                                                <div className='border h-5 w-[51px] border-r-0   border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* below the po tables */}
+                                    <div className='flex'>
+                                        <div className='mt-5 border border-green-900 w-1/2'>
+                                            <div>
+                                                <span className='text-xs font-bold ' id='student'>Student In-charge(s)</span>
+                                                <textarea name="student" id='student' cols="17" rows="1" className=' text-sm ml-3'></textarea>
+                                            </div>
+                                        </div>
+                                        <div className='mt-5 border border-green-900 w-1/2'>
+                                            <div>
+                                                <span className='font-bold  text-xs' id="Faculty"> Faculty In-charge</span>
+                                                <textarea name="Rules" id="Faculty" cols="17" rows="1" className=' text-sm ml-3'></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='flex'>
+                                        <div className='w-1/2'>HOD
+                                            </div> 
+                                        <div className='w-1/2'>JHHH
 
-                                            
                                         </div>
-                                        <div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </form>
