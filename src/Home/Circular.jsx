@@ -65,22 +65,24 @@ function Circular() {
                                         <div className='mt-3 '>
                                             <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold  border-r-0 border border-black' placeholder='po' />
                                             <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po' />
-                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
-                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
-                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
-                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' placeholder='po'/>
-                                           <div className='flex'>
-                                           <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
-                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black ' ></div>
-                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
-                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
-                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
-                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' ></div>
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po' />
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po' />
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po' />
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' placeholder='po' />
+                                            <div className='flex'>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' > <span className='  flex justify-center items-center che'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                                                </svg></span></div>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black ' ></div>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                                <div className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' ></div>
 
-                                           </div>
+                                            </div>
 
-                                            
-                                            
+
+
                                             {/* check box for po */}
                                             {/* <div className='flex  '>
                                                 <div className='border h-5 w-[51px]  border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
@@ -106,17 +108,17 @@ function Circular() {
                                         </div>
                                     </div><br />
                                     <div className='flex'>
-                                        <div className='w-1/3 p-4'><span  className='font-serif text-xs  font-semibold  '>HOD</span>
-                                            </div> 
-                                        <div className='w-2/1 border p-4 '><span  className='font-bold text-xs  '>Co-Curricular Coordinator</span>
+                                        <div className='w-1/3 p-4'><span className='font-serif text-xs  font-semibold  '>HOD</span>
+                                        </div>
+                                        <div className='w-2/1 border p-4 '><span className='font-bold text-xs  '>Co-Curricular Coordinator</span>
                                         </div>
                                     </div>
                                     <div className='flex'>
-                                        <div className='w-1/2 p-4  text-center'><span  className='font-serif text-xs  font-semibold ' >Vice-Principal</span>
-                                            </div> 
-                                        <div className='w-1/2 p-4  text-center'><span  className='font-bold text-xs '>Principal</span>
+                                        <div className='w-1/2 p-4  text-center'><span className='font-serif text-xs  font-semibold ' >Vice-Principal</span>
                                         </div>
-                                    </div>  
+                                        <div className='w-1/2 p-4  text-center'><span className='font-bold text-xs '>Principal</span>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </form>
