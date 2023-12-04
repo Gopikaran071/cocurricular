@@ -58,48 +58,66 @@ function Circular() {
                                         </div>
                                     </div>
                                     <div>
-                                        <span className='font-serif text-xs  font-semibold'>  PO Mapping   </span>
+                                        <span >  PO Mapping   </span>
                                         <span className='font-bold ml-[10px]'>:</span>
                                     </div>
                                     <div className='border border-black '>
-                                        <div className='mt-3'>
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1  text-center font-serif text-sm font-semibold  border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' />
-                                            <input type="text" name="" id="" className='h-5 w-[51px] p-1 text-center  font-serif text-sm font-semibold  border-black' />
-                                            <div className='flex  '>
+                                        <div className='mt-3 '>
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold  border-r-0 border border-black' placeholder='po' />
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po' />
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1  text-center font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' placeholder='po'/>
+                                            <input type="text" name="" id="" className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' placeholder='po'/>
+                                           <div className='flex'>
+                                           <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black ' ></div>
+                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-0 border border-black' ></div>
+                                            <div  className='h-5 w-[45px] p-1 text-center  font-serif text-sm font-semibold border-r-1 border border-black' ></div>
+
+                                           </div>
+
+                                            
+                                            
+                                            {/* check box for po */}
+                                            {/* <div className='flex  '>
                                                 <div className='border h-5 w-[51px]  border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
                                                 <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
                                                 <div className='border h-5 w-[51px] border-r-0  border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
                                                 <div className='border h-5 w-[51px] border-r-0   border-black '><input type="checkbox" name="" id="" className='h-[20px] w-[35px]  text-black p-1 border-r-0 border border-black' /></div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     {/* below the po tables */}
                                     <div className='flex'>
-                                        <div className='mt-5 border border-green-900 w-1/2'>
+                                        <div className='mt-5  w-1/2'>
                                             <div>
                                                 <span className='text-xs font-bold ' id='student'>Student In-charge(s)</span>
                                                 <textarea name="student" id='student' cols="17" rows="1" className=' text-sm ml-3'></textarea>
                                             </div>
                                         </div>
-                                        <div className='mt-5 border border-green-900 w-1/2'>
+                                        <div className='mt-5 w-1/2'>
                                             <div>
                                                 <span className='font-bold  text-xs' id="Faculty"> Faculty In-charge</span>
                                                 <textarea name="Rules" id="Faculty" cols="17" rows="1" className=' text-sm ml-3'></textarea>
                                             </div>
                                         </div>
+                                    </div><br />
+                                    <div className='flex'>
+                                        <div className='w-1/3 p-4'><span  className='font-serif text-xs  font-semibold  '>HOD</span>
+                                            </div> 
+                                        <div className='w-2/1 border p-4 '><span  className='font-bold text-xs  '>Co-Curricular Coordinator</span>
+                                        </div>
                                     </div>
                                     <div className='flex'>
-                                        <div className='w-1/2'>HOD
+                                        <div className='w-1/2 p-4  text-center'><span  className='font-serif text-xs  font-semibold ' >Vice-Principal</span>
                                             </div> 
-                                        <div className='w-1/2'>JHHH
-
+                                        <div className='w-1/2 p-4  text-center'><span  className='font-bold text-xs '>Principal</span>
                                         </div>
+                                    </div>  
 
-                                    </div>
                                 </div>
                             </form>
                         </div>
