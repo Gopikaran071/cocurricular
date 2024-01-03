@@ -7,6 +7,7 @@ import  Home  from './Home/Home'
 import Form from './Home/Form'
 import Circular from './Home/Circular'
 import Dashboard from './Dashboard/Dashboard'
+import Report from './Home/Report'
 
 
 
@@ -22,8 +23,7 @@ function App() {
         <Route path='/Home' element={<Home />}/>
         <Route path='/Form' element={<Form />}/>
         <Route path='/Circular' element={<Circular/>}/>
-     
-   
+        <Route path='/Report' element={<Report/>}/>   
       </Routes>
 
     </div>
