@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {db} from '../firebase';
 import {collection,addDoc} from 'firebase/firestore'
+import Reportdisplay from './Reportdisplay';
 function Report() {
 
 
@@ -17,6 +18,9 @@ const addtofirebase=()=>{
   const data={
     eventname:eventname,
     eventreport:eventreport,
+    photo1:photo1,
+    photo2:photo2,
+    feedback:feedback,
   };
 
   try{
@@ -28,12 +32,8 @@ const addtofirebase=()=>{
   {
       console.log("error adding document",e);
   }
-  alert(data.eventname)
-  setEventName('');
-
-
-
-
+  alert("report created sucessfully   :)")
+  
 }
 
   return (
@@ -59,7 +59,11 @@ const addtofirebase=()=>{
         <div>
           <button type="submit" className='border border-red-800' onClick={addtofirebase}>submit</button>
         </div>
+        <div>
+          <Reportdisplay/>
+        </div>
     </div>
+
   )
 }
 
