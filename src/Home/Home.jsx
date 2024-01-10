@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ramcologo from "/ramcologo.jpg"
+import ramcologo from "../Public/ramcologo.jpg"
 
 
 function Home() {
