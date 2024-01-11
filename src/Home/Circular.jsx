@@ -1,4 +1,5 @@
 import React from 'react'
+import pannerlogo from "../Public/ramcologo.jpg"
 
 function Circular() {
     const dept = "COMPUTER SCIENCE AND BUSINESS SYSTEMS"
@@ -9,7 +10,7 @@ function Circular() {
             <div className='border  shadow-2xl p-3  mx-[300px] '>
                 <div className='border border-black p-5 px-9'>
                     <div className='flex'>
-                        <img src="/ramcologo.jpg" alt=" ramcologo" className='h-[95px]' />
+                        <img src={pannerlogo} alt=" ramcologo" className='h-[95px]' />
                         <div className=''>
                             <span className='ml-[100px] font-bold font-serif'>RAMCO INSTITUTE OF TECHNOLOGY </span>
                             <span className='ml-[180px] font-bold font-serif'>RAJAPALAYAM</span><br />

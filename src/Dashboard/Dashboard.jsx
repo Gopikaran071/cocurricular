@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import ramcologo from "../Public/ramcologo.jpg"
 
 function Dashboard() {
   const scrollRef1 = useRef(null);
@@ -43,7 +44,7 @@ function Dashboard() {
     <div className='mb-9 m-5 scrollbar-hide'>
       <nav className='border flex rounded-xl shadow-black/50 shadow-lg p-1'>
         <a className='flex focus:shadow-sm ml-3' href='https://www.ritrjpm.ac.in/'>
-          <img src="/ramcologo.jpg" alt="" className='h-9' />
+          <img src={ramcologo} alt="" className='h-9' />
           <span className='font-semibold mt-1 ml-2 text-xl'>RIT</span>
         </a>
         <h1 className='font-semibold mt-1 lg:ml-[490px] text-xl   md:ml-[550px]'>Co-Curricular</h1>

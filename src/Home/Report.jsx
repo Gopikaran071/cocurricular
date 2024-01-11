@@ -36,7 +36,7 @@ function Report() {
     const feedbackURL = feedback ? await uploadFile(feedback) : null;
 
     const data = {
-      deptname:deptname,
+      deptname: deptname,
       eventname: eventname,
       eventreport: eventreport,
       photo1: photo1URL,
@@ -52,32 +52,38 @@ function Report() {
       console.error("Error adding document: ", e);
     }
 
-    alert("Report created successfully :)");
+    alert("Report created successfully Kindly Rfresh the page :)");
   };
 
   return (
-    <div>
-      <div>Report</div>
-      <div>
-        <label htmlFor="deptname">Enter the Department name <input type="text" id="deptname" onChange={(e) => setDeptname(e.target.value)} className="outline-dotted" /></label>
-      </div>
-      <div>
-        <label htmlFor="eventname">Enter the event name <input type="text" id="eventname" onChange={(e) => setEventName(e.target.value)} className="outline-dotted" /></label>
-      </div>
-      <div>
-        <label htmlFor="eventreport">Enter the event report <input type="text" id="eventreport" onChange={(e) => setEventReport(e.target.value)} className="outline-dotted" /></label>
-      </div>
-      <div>
-        <label htmlFor="photo1">Upload a photo1 <input type="file" id="photo1" onChange={(e) => handleFileChange(e, setPhoto1)} /></label>
-      </div>
-      <div>
-        <label htmlFor="photo2">Upload a photo2 <input type="file" id="photo2" onChange={(e) => handleFileChange(e, setPhoto2)} /></label>
-      </div>
-      <div>
-        <label htmlFor="feedback">Upload a feedback <input type="file" id="feedback" onChange={(e) => handleFileChange(e, setFeedback)} /></label>
-      </div>
-      <div><Link to="/Reportdisplay">
-        <button type="submit" className="border border-red-800" onClick={addtofirebase}>Submit</button></Link>
+    <div className=' '>
+      <div className=''>
+        <div className='border border-green-950 mx-[400px] my-10 rounded-2xl shadow-2xl'>
+          <div className='flex justify-center items-center my-6 text-lg'><span className=' font-bold text-slate-700'>Create Your Report </span></div>
+          <div className='mx-[50px]'>
+          <div>
+            <label htmlFor="deptname"><span className='font-semibold'>Enter the Department name :</span> <input type="text" id="deptname" onChange={(e) => setDeptname(e.target.value)} className="ml-[15px] h-[35px] mt-[5px] bg-zinc-100 py-1 shadow-inner rounded-md" /></label>
+          </div>
+          <div>
+            <label htmlFor="eventname"><span className='font-semibold'>Enter the event name :</span> <input type="text" id="eventname" onChange={(e) => setEventName(e.target.value)} className="ml-[60px] h-[35px] mt-[25px] bg-zinc-100 py-1 shadow-inner rounded-md" /></label>
+          </div>
+          <div>
+            <label htmlFor="eventreport"><span className='font-semibold'>Enter the event report : </span><input type="text" id="eventreport" onChange={(e) => setEventReport(e.target.value)} className="ml-[55px] h-[35px] mt-[25px] bg-zinc-100 py-1 shadow-inner rounded-md" /></label>
+          </div><br />
+          <div>
+            <label htmlFor="photo1"><span className='font-semibold mt-[5px]'>Upload a photo1</span> <input type="file" id="photo1" onChange={(e) => handleFileChange(e, setPhoto1)} /></label>
+          </div><br />
+          <div>
+            <label htmlFor="photo2"><span className='font-semibold'>Upload a photo2</span> <input type="file" id="photo2" onChange={(e) => handleFileChange(e, setPhoto2)} /></label>
+          </div><br />
+          <div>
+            <label htmlFor="feedback"><span className='font-semibold'> Upload a feedback analysis</span> <input type="file" id="feedback" multiple onChange={(e) => handleFileChange(e, setFeedback)} /></label>
+          </div>
+          </div>
+          <div className='flex justify-center items-center my-[25px]'><Link to="/Reportdisplay">
+            <button type="submit" className="border bg-green-600   rounded-xl text-white p-2 font-semibold" onClick={addtofirebase}>Submit</button></Link>
+          </div>
+        </div>
       </div>
       {/* <div>
         <Reportdisplay />

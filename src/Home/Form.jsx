@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ramco from "../Public/ramco.jpg"
 
 
 const Form = () => {
@@ -34,7 +35,7 @@ const Form = () => {
         {/* header */}
         <div className='p-3 flex justify-center items-center mx-[150px] rounded-sm '>
           <div>
-            <img src='/ramco.jpg' alt="ramco" className='h-20 border' />
+            <img src={ramco} alt="ramco" className='h-20 border' />
             <h1></h1>
             <h1 className='text-lg font-bold mt-3 flex justify-center'>
               New Officers Bearers  Registration
